@@ -9,7 +9,7 @@
 }
 
 .box {
-    padding: 1rem;
+    padding: 1.25rem;
 }
 
 h1 {
@@ -17,7 +17,7 @@ h1 {
 }
 
 p {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
 }
 
 pre {
@@ -33,10 +33,25 @@ hr {
 }
 
 a {
+    display: inline-block;
     text-decoration: none;
     color: rgb(29, 118, 129);
 }
 
+a:hover {
+    color: rgb(9, 72, 80);
+    transform: scale(1.02, 1.02);
+    transition: 0.3s all;
+}
+
 ul {
     margin-left: 32px;
+}
+
+.header {
+    background-color: rgb(221, 184, 16);
+}
+
+.yellow {
+    color: rgb(187, 170, 17);
 }
