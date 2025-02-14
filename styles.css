@@ -21,7 +21,6 @@ p {
 }
 
 pre {
-    font-size: 1;
     opacity: 0.8;
 }
 
@@ -53,5 +52,5 @@ ul {
 }
 
 .yellow {
-    color: rgb(187, 170, 17);
+    color: rgb(95, 86, 6);
 }
